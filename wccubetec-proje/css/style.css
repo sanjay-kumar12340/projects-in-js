@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: "Inter", serif;
+}
+header.container-fluid{
+    z-index: 99;
+}
+.wapp-btn{
+    padding: 10px 18px;
+    border: 1px solid #27AE60;
+    color: #27AE60;
+}
+.wapp-btn i{
+    margin-right: 5px;
+}
+.wapp-btn:hover{
+    border: 1px solid #27AE60;
+}
+.call-btn{
+    padding: 10px 18px;
+    background: linear-gradient(#0acefe,#2699fb);
+    color: #fff;
+}
+.banner-L-text h1{
+    font-size: 52px;
+    font-weight: 700;
+}
+.banner-L-text h1 span{
+    color: #2699fb;
+}
+.banner-L-text p{
+    font-size: 22px;
+}
+.banner-L-text li{
+    list-style: none;
+}
+.banner-L-text li i{
+    color:#0acefe;
+}
+.bnr-txt-btn button{
+    width: 50%;
+}
+.bnr-txt-btn button{
+    padding: 6px 0;
+}
+.bnr-txt-btn button:first-child{
+    background: linear-gradient(#0acefe,#2699fb);
+    color: #fff;
+}
+.form-banner{
+    padding: 40px;
+    border-radius: 10px;
+}
+.form-banner h3{
+    font-size:18px;
+    font-weight: bold;
+}
+.form-banner p{
+    font-size: 14px;
+}
+.form-btnn button{
+    width: 100%;
+    padding: 6px 0;
+    background: linear-gradient(#0acefe,#2699fb);
+    color: #fff;
+    border: none;
+}
+.cont-section h2{
+    font-size: 30px;
+    font-weight: 700;
+    color: #2699fb;
+} 
+.cont-section p{
+    font-size: 14px;
+}
+.highlite-sec{
+    background-color: #f7faff;
+}
+.highlite-sec h2{
+    color:#0a2134;
+    font-size: 36px;
+    font-weight: 700;
+}
+.Hilite-sec h4{
+    font-size: 20px;
+    font-weight: 600;
+
+}
+.Hilite-sec p{
+    font-size: 15px;
+}
+.tab-content li{
+    list-style: none;
+}
+.chang-syst .nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    background-color: #f2f4f7;
+    color: #000;
+    border-bottom:2px solid blue ;
+    border-radius: 0px;
+
+}

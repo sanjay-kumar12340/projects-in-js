@@ -1,0 +1,44 @@
+@media only screen and (min-width:200px) and (max-width:575px){
+    .out-butn{
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background: rgb(255, 255, 255);
+        padding: 5px 0;
+        justify-content: center !important;
+
+    }
+    .wapp-btn,.call-btn{
+        padding: 7px 15px;
+        font-size: 14px;
+    } 
+    .banner-L-text h1 {
+        font-size: 28px;
+        font-weight: 700;
+        text-align: center;
+        line-height: 35px;
+    }
+    .banner-L-text h1 br{
+        display: none;
+    }
+    .banner-L-text p,.banner-L-text ul li{
+        font-size: 16px;
+    }
+    .bnr-txt-btn button{
+        font-size: 12px;
+        width: 100%;
+    }
+    .bnr-txt-btn{
+        flex-direction: column;
+    }
+    .form-banner{
+        padding: 20px;
+    }
+    .highlite-sec h2{
+        font-size: 26px;
+    }
+   
+
+}
+

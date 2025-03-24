@@ -1,0 +1,16 @@
+@media (max-width: 982px) {
+    nav .navbar-nav {
+      background-color: #048e7c74;
+      padding: 2rem;
+      backdrop-filter: blur(5px);
+    }
+  
+    .hero-section{
+      text-align: center;
+    }
+    h1{
+      font-size: 4rem;
+      margin-bottom: 1rem;
+    }
+  }
+  
