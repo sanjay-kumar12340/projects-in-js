@@ -13,7 +13,7 @@ form.addEventListener('submit', function(calevn){
         results.innerHTML = `please give a valid weight ${weight}`;
     }else{
        bmi = (weight / ((height*height)/10000)).toFixed(2);
-
+ 
        //show the result
        results.innerHTML = `<span>${bmi}</span>`;
        if (bmi < 18.6) {

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>asnychronous(2)</title>
+</head>
+<body>
+    <h1>learn js with hitesh sir </h1>
+    <button id="stop">stop</button>
+    <button id="start">start</button>
+</body>
+<script>
+    const saydate = function() {
+        console.log('sanjay',Date.now());
+        
+    }
+   let interval
+   function startinterval(){
+    clearTimeout(interval)
+    interval = setInterval(saydate, 1000, );
+   }
+   startinterval()
+
+    
+
+    document.querySelector('#stop').addEventListener('click', function(){
+        clearTimeout(interval)
+        console.log('STOPPED');
+        
+      },)
+      document.querySelector('#start').addEventListener('click', function(){
+        startinterval()
+        console.log('start on');
+        
+      },)
+
+
+
+
+</script>
+</html>

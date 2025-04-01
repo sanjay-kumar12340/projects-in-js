@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>asnychronous(1)</title>
+</head>
+<body>
+    <h1>code of java-script</h1>
+    <button id="stop">stop</button>
+    
+</body>
+<script>
+    // const changetext = function(){
+    //     console.log('sanjaythakur')
+    // }
+    const hisanjay = function(){
+        console.log('sanjay');
+        document.querySelector('h1').innerHTML = 'code execute with js '
+    }
+    //   setTimeout(hisanjay ,2000);// use settimeout
+
+      const changeme = setTimeout(hisanjay,2000);
+
+      document.querySelector('#stop').addEventListener('click', function(){
+        clearTimeout(changeme)
+        console.log('STOPPED');
+        
+      },)
+
+
+
+</script>
+</html>
